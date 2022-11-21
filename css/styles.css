@@ -1,0 +1,29 @@
+@charset "utf-8";
+
+/* M22W0B03 佐久間美緒 */
+
+html {
+  font-size: 20px;
+}
+
+body {
+  font-family: serif;
+  background-image: url(../img/mono_pink1.gif);
+  background-repeat: repeat;
+}
+
+h1,h2,h3 {
+  font-family: sans-serif;
+}
+
+h1 {
+  color: #df1a1a;
+}
+
+h2 {
+  color: #df691a;
+}
+
+h3 {
+  color: #df1a55;
+}

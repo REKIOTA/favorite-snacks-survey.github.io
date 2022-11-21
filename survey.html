@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>M22W0B03 お菓子についての調査</title>
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+
+  <body>
+    <h1>好きなお菓子についての調査</h1>
+
+    新商品開発のため、消費者のお菓子のニーズについて調査しています。<br>
+    つきましては、皆様のご意見をお聞かせ願いたく存じます。<br>
+    また、お時間のある方は直接お話を伺いたいと考えておりますので、お話を伺える日時についてご入力いただけますと幸いです。<br>
+    ご協力いただける方は下記のフォームにお答えください。<br>
+
+    <hr>
+
+    <form action="mailto:st002261@m2.kcg.edu" method="post" enctype="text/plain">
+      
+      <h2>あなたについて</h2>
+      <h3>基本情報</h3>
+      <p>
+       <div>お名前：<input type="text" name="name" placeholder="お名前を入力してください"></div>
+
+       <div>メールアドレス：<input type="text" name="mail" placeholder="メールアドレスを入力してください"></div>
+
+       <div>性別：
+         <label><input type="radio" name="sex" value="male">男性</label>
+         <label><input type="radio" name="sex" value="female">女性</label>
+         <label><input type="radio" name="sex" value="other_sex">その他</label>
+       </div>
+
+       <div>年齢：
+        <label><input type="radio" name="age" value="10's">10代</label>
+        <label><input type="radio" name="age" value="20's">20代</label>
+        <label><input type="radio" name="age" value="30's">30代</label>
+        <label><input type="radio" name="age" value="40's">40代</label>
+        <label><input type="radio" name="age" value="50's">50代</label>
+        <label><input type="radio" name="age" value="60's_and_over">60代以上</label>
+      </div>
+      </p>
+
+      <h3>住所</h3>
+      <p>
+        <div>郵便番号：<input type="text" name="post_code" placeholder="郵便番号を入力してください"></div>
+        <div>都道府県：
+          <select name="prefectures">
+            <option value="non_select" selected>選択してください</option>
+            <option value="Hokkaido">北海道</option>
+            <option value="Aomori">青森県</option>
+            <option value="Iwate">岩手県</option>
+            <option value="Akita">秋田県</option>
+            <option value="Miyagi">宮城県</option>
+            <option value="Yamagata">山形県</option>
+            <option value="Fukushima">福島県</option>
+            <option value="Ibaragi">茨城県</option>
+            <option value="Totigi">栃木県</option>
+            <option value="Gunma">群馬県</option>
+            <option value="Saitama">埼玉県</option>
+            <option value="Chiba">千葉県</option>
+            <option value="Tokyo">東京都</option>
+            <option value="Kanagawa">神奈川県</option>
+            <option value="Niigata">新潟県</option>
+            <option value="Nagano">長野県</option>
+            <option value="Yamanashi">山梨県</option>
+            <option value="Shizuoka">静岡県</option>
+            <option value="Aichi">愛知県</option>
+            <option value="Gihu">岐阜県</option>
+            <option value="Toyama">富山県</option>
+            <option value="Ishikawa">石川県</option>
+            <option value="Hukui">福井県</option>
+            <option value="Mie">三重県</option>
+            <option value="Shiga">滋賀県</option>
+            <option value="Kyoto">京都府</option>
+            <option value="Osaka">大阪府</option>
+            <option value="Nara">奈良県</option>
+            <option value="Wakayama">和歌山県</option>
+            <option value="Hyogo">兵庫県</option>
+            <option value="Okayama">岡山県</option>
+            <option value="Tottori">鳥取県</option>
+            <option value="Hiroshima">広島県</option>
+            <option value="Shimane">島根県</option>
+            <option value="Yamaguchi">山口県</option>
+            <option value="Tokushima">徳島県</option>
+            <option value="Kagawa">香川県</option>
+            <option value="Ehime">愛媛県</option>
+            <option value="Kochi">高知県</option>
+            <option value="Fukuoka">福岡県</option>
+            <option value="Saga">佐賀県</option>
+            <option value="Nagasaki">長崎県</option>
+            <option value="Oita">大分県</option>
+            <option value="Miyazaki">宮崎県</option>
+            <option value="Kumamoto">熊本県</option>
+            <option value="Kagoshima">鹿児島県</option>
+            <option value="Okinawa">沖縄県</option>
+          </select>
+        </div>
+        <div>市区町村：<input type="text" name="municipalities" placeholder="市区町村を入力してください"></div>
+        <div>番地：<input type="text" name="place_address" placeholder="番地を入力してください"></div>
+        <div>建物名・部屋番号：<input type="text" name="building_name" placeholder="建物名・部屋番号を入力してください"></div>
+      </p>
+
+      <h3>好きなお菓子について</h3>
+      <p>
+        <label><input type="checkbox" name="snack" value="gummy">グミ</label>
+        <label><input type="checkbox" name="snack" value="candy">飴</label>
+        <label><input type="checkbox" name="snack" value="potato_chips">ポテトチップス</label>
+        <label><input type="checkbox" name="snack" value="chocolate">チョコレート</label>
+        <label><input type="checkbox" name="snack" value="japanese_sweets">和菓子</label>
+        <label><input type="checkbox" name="snack" value="other_snack">その他</label><br>
+        <textarea name="memo_snack" rows="5" cols="100" placeholder="その他を選択した方は、こちらにご記入ください"></textarea>
+      </p>
+
+      <hr>
+
+      <h2>希望日時</h2>
+      <p>
+        <div>希望日：
+         <input type="date" name="preferred_days">
+        </div>
+        <div>希望時間：
+          <label><input type="radio" name="preferred_times" value="8-10">8~10時</label>
+          <label><input type="radio" name="preferred_times" value="10-12">10~12時</label>
+          <label><input type="radio" name="preferred_times" value="12-14">12~14時</label>
+          <label><input type="radio" name="preferred_times" value="14-16">14~16時</label>
+          <label><input type="radio" name="preferred_times" value="16-18">16~18時</label>
+        </div>
+
+      </p>
+
+      <hr>
+     
+      <h2>ご質問・ご要望について</h2>
+      <div>
+        <textarea name="memo" rows="10" cols="100" placeholder="ご質問・ご要望がございましたら、こちらにご記入ください"></textarea>
+      </div>
+
+      <div>
+        <input type="submit" name="ok" value="送信">
+        <input type="reset" value="リセット">
+      </div>
+    </form>
+  </body>
+</html>
